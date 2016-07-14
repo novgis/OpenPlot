@@ -12,6 +12,9 @@
 - 标绘元素序列化与反序列化
 - 标注的集成
 
+### 使用截图
+![](http://7xteqg.com1.z0.glb.clouddn.com/plot/display.gif)
+
 # v2.0
 实现不依赖于任何第三方库的标绘元素的生成，如钳形箭标等
 
