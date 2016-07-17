@@ -1,9 +1,0 @@
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.UnitTest\bin\Debug\NovGIS.OpenPlot.UnitTest.exe
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.UnitTest\bin\Debug\NovGIS.OpenPlot.UnitTest.pdb
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.UnitTest\bin\Debug\NovGIS.OpenPlot.Controls.dll
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.UnitTest\bin\Debug\NovGIS.OpenPlot.Core.dll
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.UnitTest\bin\Debug\NovGIS.OpenPlot.Controls.pdb
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.UnitTest\bin\Debug\NovGIS.OpenPlot.Core.pdb
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.UnitTest\obj\x86\Debug\NovGIS.OpenPlot.UnitTest.csprojResolveAssemblyReference.cache
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.UnitTest\obj\x86\Debug\NovGIS.OpenPlot.UnitTest.exe
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.UnitTest\obj\x86\Debug\NovGIS.OpenPlot.UnitTest.pdb

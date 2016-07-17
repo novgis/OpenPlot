@@ -1,7 +1,0 @@
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Controls\bin\Debug\NovGIS.OpenPlot.Controls.dll
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Controls\bin\Debug\NovGIS.OpenPlot.Controls.pdb
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Controls\obj\Debug\NovGIS.OpenPlot.Controls.dll
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Controls\obj\Debug\NovGIS.OpenPlot.Controls.pdb
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Controls\bin\Debug\NovGIS.OpenPlot.Core.dll
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Controls\bin\Debug\NovGIS.OpenPlot.Core.pdb
-D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Controls\obj\Debug\NovGIS.OpenPlot.Controls.csprojResolveAssemblyReference.cache
