@@ -1,0 +1,10 @@
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Samples.Dev\bin\Debug\NovGIS.OpenPlot.Samples.Dev.exe.config
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Samples.Dev\bin\Debug\NovGIS.OpenPlot.Samples.Dev.exe
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Samples.Dev\bin\Debug\NovGIS.OpenPlot.Samples.Dev.pdb
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Samples.Dev\bin\Debug\NovGIS.OpenPlot.Controls.dll
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Samples.Dev\bin\Debug\NovGIS.OpenPlot.Controls.pdb
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Samples.Dev\obj\x86\Debug\NovGIS.OpenPlot.Samples.Dev.csprojResolveAssemblyReference.cache
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Samples.Dev\obj\x86\Debug\NovGIS.OpenPlot.Samples.Dev.Properties.Resources.resources
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Samples.Dev\obj\x86\Debug\NovGIS.OpenPlot.Samples.Dev.csproj.GenerateResource.Cache
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Samples.Dev\obj\x86\Debug\NovGIS.OpenPlot.Samples.Dev.exe
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Samples.Dev\obj\x86\Debug\NovGIS.OpenPlot.Samples.Dev.pdb

@@ -1,0 +1,5 @@
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Core\bin\Debug\NovGIS.OpenPlot.Core.dll
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Core\bin\Debug\NovGIS.OpenPlot.Core.pdb
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Core\obj\Debug\NovGIS.OpenPlot.Core.dll
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Core\obj\Debug\NovGIS.OpenPlot.Core.pdb
+D:\opensource_gis\OpenPlot\OpenPlot4AO\NovGIS.OpenPlot.Core\obj\Debug\NovGIS.OpenPlot.Core.csprojResolveAssemblyReference.cache
