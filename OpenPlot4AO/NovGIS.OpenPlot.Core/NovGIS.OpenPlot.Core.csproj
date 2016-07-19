@@ -40,23 +40,35 @@
     <Reference Include="ESRI.ArcGIS.Geometry, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
+    <Reference Include="ESRI.ArcGIS.System, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
     <Reference Include="ESRI.ArcGIS.SystemUI, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Carto\AbsCommand.cs" />
-    <Compile Include="Carto\AbsTool.cs" />
+    <Compile Include="SystemUI\AbsCommand.cs" />
+    <Compile Include="SystemUI\AbsTool.cs" />
     <Compile Include="Geometry\AbsArrowPlot.cs" />
-    <Compile Include="IPlot.cs" />
-    <Compile Include="PlotType.cs" />
+    <Compile Include="Geometry\Arrow\PliersOuterArrow.cs" />
+    <Compile Include="Geometry\IPlot.cs" />
+    <Compile Include="Geometry\PlotType.cs" />
+    <Compile Include="Utilities\MathHelper.cs" />
+    <Compile Include="Utilities\XmlHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Element\" />
+    <Folder Include="Geometry\Line\" />
+    <Folder Include="Geometry\Marker\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
