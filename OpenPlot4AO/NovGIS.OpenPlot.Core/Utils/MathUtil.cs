@@ -3,7 +3,7 @@ using ESRI.ArcGIS.Geometry;
 
 namespace NovGIS.OpenPlot.Core
 {
-    public static class MathHelper
+    public static class MathUtil
     {
         /// <summary>
         /// 计算两点的平面弧度

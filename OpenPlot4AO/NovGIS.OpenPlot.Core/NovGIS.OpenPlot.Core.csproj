@@ -57,8 +57,8 @@
     <Compile Include="Geometry\Arrow\AbsArrowPlot.cs" />
     <Compile Include="Geometry\IPlot.cs" />
     <Compile Include="Geometry\PlotType.cs" />
-    <Compile Include="Utilities\MathHelper.cs" />
-    <Compile Include="Utilities\XmlHelper.cs" />
+    <Compile Include="Utilities\MathUtil.cs" />
+    <Compile Include="Utilities\XmlUtil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

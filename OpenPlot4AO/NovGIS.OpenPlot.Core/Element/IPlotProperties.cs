@@ -1,6 +1,4 @@
-﻿using ESRI.ArcGIS.Carto;
-
-namespace NovGIS.OpenPlot.Element
+﻿namespace NovGIS.OpenPlot.Element
 {
     /// <summary>
     /// 标绘元素的标注

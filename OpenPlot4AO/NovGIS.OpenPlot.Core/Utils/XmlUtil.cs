@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 
 namespace NovGIS.OpenPlot.Core
 {
-    public static class XmlHelper
+    public static class XmlUtil
     {
         /// <summary>
         /// 泛型对象克隆
