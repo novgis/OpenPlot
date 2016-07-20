@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovGIS.OpenPlot.Controls", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovGIS.OpenPlot.Samples.Dev", "NovGIS.OpenPlot.Samples.Dev\NovGIS.OpenPlot.Samples.Dev.csproj", "{DD228A35-2006-4692-8284-A8CCA68C22C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovGIS.OpenPlot.UnitTest", "NovGIS.OpenPlot.UnitTest\NovGIS.OpenPlot.UnitTest.csproj", "{5CEC76D7-7638-4C39-A887-FFF90AAED4EA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,16 +47,6 @@ Global
 		{DD228A35-2006-4692-8284-A8CCA68C22C1}.Release|Mixed Platforms.Build.0 = Release|x86
 		{DD228A35-2006-4692-8284-A8CCA68C22C1}.Release|x86.ActiveCfg = Release|x86
 		{DD228A35-2006-4692-8284-A8CCA68C22C1}.Release|x86.Build.0 = Release|x86
-		{5CEC76D7-7638-4C39-A887-FFF90AAED4EA}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{5CEC76D7-7638-4C39-A887-FFF90AAED4EA}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{5CEC76D7-7638-4C39-A887-FFF90AAED4EA}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{5CEC76D7-7638-4C39-A887-FFF90AAED4EA}.Debug|x86.ActiveCfg = Debug|x86
-		{5CEC76D7-7638-4C39-A887-FFF90AAED4EA}.Debug|x86.Build.0 = Debug|x86
-		{5CEC76D7-7638-4C39-A887-FFF90AAED4EA}.Release|Any CPU.ActiveCfg = Release|x86
-		{5CEC76D7-7638-4C39-A887-FFF90AAED4EA}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{5CEC76D7-7638-4C39-A887-FFF90AAED4EA}.Release|Mixed Platforms.Build.0 = Release|x86
-		{5CEC76D7-7638-4C39-A887-FFF90AAED4EA}.Release|x86.ActiveCfg = Release|x86
-		{5CEC76D7-7638-4C39-A887-FFF90AAED4EA}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
