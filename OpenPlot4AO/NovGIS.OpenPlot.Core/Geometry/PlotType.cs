@@ -7,13 +7,13 @@
         /// </summary>
         eNone = -1,
         /// <summary>
-        /// 线状元素
-        /// </summary>
-        eSimpleLine= 0,
-        /// <summary>
         /// 标记元素
         /// </summary>
-        eSimpleMarker,
+        eMarker = 0,
+        /// <summary>
+        /// 线状元素
+        /// </summary>
+        eLinear,
         /// <summary>
         /// 外钳击面箭标
         /// </summary>

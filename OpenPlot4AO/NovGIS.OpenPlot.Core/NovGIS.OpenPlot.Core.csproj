@@ -32,10 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ESRI.ArcGIS.Carto, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
-      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="ESRI.ArcGIS.Display, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
-      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="ESRI.ArcGIS.Geometry, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
       <EmbedInteropTypes>False</EmbedInteropTypes>
@@ -43,30 +43,25 @@
     <Reference Include="ESRI.ArcGIS.System, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
-    <Reference Include="ESRI.ArcGIS.SystemUI, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SystemUI\AbsCommand.cs" />
-    <Compile Include="SystemUI\AbsTool.cs" />
-    <Compile Include="Geometry\AbsArrowPlot.cs" />
-    <Compile Include="Geometry\Arrow\PliersOuterArrow.cs" />
+    <Compile Include="Element\IPlotProperties.cs" />
+    <Compile Include="Element\LabelAnchor.cs" />
+    <Compile Include="Element\LinearPlotElement.cs" />
+    <Compile Include="Geometry\Arrow\LinerLineHorizonArrow.cs" />
+    <Compile Include="Geometry\Linear\LinearPlot.cs" />
+    <Compile Include="Geometry\Marker\MarkerPlot.cs" />
+    <Compile Include="Geometry\Arrow\AbsArrowPlot.cs" />
     <Compile Include="Geometry\IPlot.cs" />
     <Compile Include="Geometry\PlotType.cs" />
     <Compile Include="Utilities\MathHelper.cs" />
     <Compile Include="Utilities\XmlHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Element\" />
-    <Folder Include="Geometry\Line\" />
-    <Folder Include="Geometry\Marker\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
   </ItemGroup>

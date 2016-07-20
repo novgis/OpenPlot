@@ -2,7 +2,7 @@
 
 namespace NovGIS.OpenPlot.SystemUI
 {
-    public abstract class AbsTool : AbsCommand, IToolEx
+    public class ToolHost : CommandHost, ITool
     {
         private bool _mouseDown;
         private int _mouseDownX = -1;
@@ -10,7 +10,6 @@ namespace NovGIS.OpenPlot.SystemUI
 
         public virtual int Cursor { get { return -1; } }
 
-        //ITool
         public virtual void OnMouseDown(int button, int shift, int x, int y)
         {
             this._mouseDownX = x;
@@ -32,17 +31,8 @@ namespace NovGIS.OpenPlot.SystemUI
         public virtual bool OnContextMenu(int x, int y) { return false; }
         public virtual void Refresh(int hdc) { }
         public virtual bool Deactivate() { return true; }
-        //IToolEx
+        //扩展OnMouseClick事件
         public virtual void OnMouseClick(int button, int shift, int x, int y) { }
         //public virtual void OnMouseHover(int button, int shift, int x, int y) { }
-    }
-
-    /// <summary>
-    /// 拓展 OnMouseClick 和 OnMouseHover 事件
-    /// </summary>
-    internal interface IToolEx : ITool
-    {
-        void OnMouseClick(int button, int shift, int x, int y);
-        //void OnMouseHover(int button, int shift, int x, int y);
     }
 }

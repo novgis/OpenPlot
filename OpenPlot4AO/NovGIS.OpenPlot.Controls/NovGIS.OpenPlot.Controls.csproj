@@ -31,11 +31,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ESRI.ArcGIS.SystemUI, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemUI\Arrow\BaseLinerArrowTool.cs" />
+    <Compile Include="SystemUI\Arrow\LinerLineHorizonArrowTool.cs" />
+    <Compile Include="SystemUI\CommandHost.cs" />
+    <Compile Include="SystemUI\Linear\BaseLinearPlotTool.cs" />
+    <Compile Include="SystemUI\Marker\BaseMarkerPlotTool.cs" />
+    <Compile Include="SystemUI\ToolHost.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NovGIS.OpenPlot.Core\NovGIS.OpenPlot.Core.csproj">
@@ -43,6 +52,7 @@
       <Name>NovGIS.OpenPlot.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

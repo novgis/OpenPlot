@@ -2,7 +2,7 @@
 
 namespace NovGIS.OpenPlot.SystemUI
 {
-    public abstract class AbsCommand : ICommand
+    public class CommandHost : ICommand
     {
         //ICommand
         protected int _bitmap = -1;
