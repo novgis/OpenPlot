@@ -9,14 +9,16 @@ namespace NovGIS.OpenPlot.Geometry
 
         public IGeometry Shape { get; private set; }
 
-        public IPoint[] FixedPoints { get; private set; }
+        public IPoint[] ControlPoints { get; private set; }
 
-        public void PutCoords(IPoint[] fixedPoints)
+        public void PutCoords(IPoint[] controlPoints)
         {
-            if (fixedPoints.Length != 1)
+            if (controlPoints.Length != 1)
                 throw new ArgumentException("传入的标绘元素控制点个数与元素最小控制点数不匹配");
-            FixedPoints = fixedPoints;
-            Shape = fixedPoints[0];
+            //GetControlPoints()
+            this.ControlPoints = controlPoints;
+            //GetShape()
+            this.Shape = controlPoints[0];
         }
     }
 }

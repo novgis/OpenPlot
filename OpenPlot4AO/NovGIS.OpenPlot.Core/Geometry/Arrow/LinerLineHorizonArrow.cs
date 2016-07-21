@@ -8,14 +8,14 @@ namespace NovGIS.OpenPlot.Geometry
     {
         public override PlotType PlotType { get { return PlotType.eLinerLineHorizonArrow; } }
 
-        protected override int FixedPointsCount { get { return 2; } }
+        protected override int ControlPointsCount { get { return 2; } }
 
-        protected override IGeometry GetShape()
+        protected override List<IPoint> GetAnchorPoints()
         {
             throw new NotImplementedException();
         }
 
-        protected override List<IPoint> GetControlPoints()
+        protected override IGeometry GetShape()
         {
             throw new NotImplementedException();
         }

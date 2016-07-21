@@ -15,11 +15,11 @@ namespace NovGIS.OpenPlot.Geometry
         /// <summary>
         /// 标绘元素控制点
         /// </summary>
-        IPoint[] FixedPoints { get; }
+        IPoint[] ControlPoints { get; }
         /// <summary>
         /// 设值标绘元素的控制点
         /// </summary>
-        /// <param name="fixedPoints">控制点</param>
-        void PutCoords(IPoint[] fixedPoints);
+        /// <param name="controlPoints">控制点</param>
+        void PutCoords(IPoint[] controlPoints);
     }
 }
